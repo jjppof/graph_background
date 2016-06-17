@@ -1,4 +1,4 @@
-# Graph Background
+# Canvas HTML5 Graph Background
 
 ### Instructions
 
