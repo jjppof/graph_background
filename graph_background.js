@@ -10,7 +10,6 @@ function graph_background(canvas_id, input_obj){
 	canvas.style.zIndex = -1;
 	canvas.style.width = "100%";
 	canvas.style.height = "100%";
-	canvas.style.backgroundColor = "black";
 
 	function range(a, b, c){
 		if(typeof b ==='undefined'){
@@ -108,8 +107,8 @@ function graph_background(canvas_id, input_obj){
 	var dot_delay_base = typeof input_obj.dot_delay_factor === 'undefined' ? 1.5 : input_obj.dot_delay_factor;
 	var transition_time = range(dot_qtd);
 	transition_time.forEach(function(element, index, array){ array[index] = dot_delay_base + Math.random()/2 });
-	var color_line = typeof input_obj.line_color === 'undefined' ? "white" : input_obj.line_color;
-	var color_dot = typeof input_obj.dot_color === 'undefined' ? "white" : input_obj.dot_color;
+	var color_line = typeof input_obj.line_color === 'undefined' ? "black" : input_obj.line_color;
+	var color_dot = typeof input_obj.dot_color === 'undefined' ? "black" : input_obj.dot_color;
 
     window.addEventListener('resize', resizeCanvas, false);
     
