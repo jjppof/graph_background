@@ -1,0 +1,23 @@
+{
+  "name": "graph_background",
+  "main": "graph_background.js",
+  "homepage": "https://github.com/jjppof/graph_background",
+  "description": "A nice canvas background based on graphs.",
+  "keywords": [
+    "graph",
+    "background",
+    "canvas",
+    "animation"
+  ],
+  "authors": [
+    "jjppof"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
