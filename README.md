@@ -8,6 +8,12 @@ Import the script, set a canvas and call:
 graph_background("your_canvas_id", options_js_object)
 ```
 
+### Bower
+
+```
+bower install graph_background
+```
+
 ### Options
 
  * **dot_number** : number of dots on screen (default: 800),
