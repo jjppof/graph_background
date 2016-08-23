@@ -25,5 +25,5 @@ bower install graph_background
  * **line_color** : connections color (default: black),
  * **dot_color** : dot color (default: black)
  
-#### [EXAMPLE](https://jjppof.github.io/graph_background/)
+#### [DEMO](https://jjppof.github.io/graph_background/)
  
